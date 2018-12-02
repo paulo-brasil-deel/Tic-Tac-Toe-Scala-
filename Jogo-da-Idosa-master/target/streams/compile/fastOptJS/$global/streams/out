@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /home/paulo/IdeaProjects/Scala Projects/Jogo-da-Idosa-master/target/scala-2.12/jogoidosa-fastopt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 45893 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 19980 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 67854 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: false[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 27207 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 18 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 65762 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 94490 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 38769 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 3370 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 42395 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 227 -- invalidated: 1[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 356 -- invalidated: 13[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 45040 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 8 -- invalidated: 1 -- trees read: 1[0m

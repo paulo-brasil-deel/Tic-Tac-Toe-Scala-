@@ -1,0 +1,1 @@
+case class Casa(val jogador: Jogador = Jogador(nomeImg=""),val ocupada:Boolean = false){}

@@ -1,0 +1,111 @@
+.telaJogo{
+    border-style:solid;
+    border-color: #6b6b6b;
+    height:720px;
+    width:1280px;
+    border-radius: 10px;
+    float: left;
+}
+
+#console{
+    border-style:solid;
+    height:600px;
+    width:600px;
+    margin-top: 50px;
+    border-radius: 10px;
+    float: left;
+    border-color: #c4c4c4;
+}
+
+.tabuleiro{
+    height:400px;
+    width:400px;
+}
+
+.casa{
+  height:180px;
+  width:180px;
+  margin-left: 11px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: none;
+    background:rgba(56,255,255,0.0);
+}
+
+.barraLateral{
+    float:left;
+    border: none;
+    height:700px;
+    width:300px;
+    border-radius: 10px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.reiniciarBotao{
+	width: 300px;
+	height: 90px;
+	background-color: #4CAF50;
+	text-align: center;
+    opacity: 1.0;
+    border: none;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.reiniciarBotao:hover{
+    background-color: #2d7f31;
+}
+
+.sairBotao{
+    width: 300px;
+	height: 90px;
+	background-color: #af4c4c;
+	text-align: center;
+    opacity: 1.0;
+    border: none;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.sairBotao:hover{
+    background-color: #7f3434;
+}
+
+a{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1.9em;
+    color: white;
+    text-decoration:none;
+}
+
+.infoJogador{
+    border-style: solid;
+    width: 294px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 200px;
+    background-color: #8babb7;
+    border-color: #6b95a5;
+    padding-top:50px;
+    opacity:1.0;
+}
+
+.infoJogadorTransparente{
+    border-style: solid;
+    width: 294px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 200px;
+    background-color: #8babb7;
+    border-color: #6b95a5;
+    padding-top:50px;
+    opacity:0.5;
+}
+
+.nomeJogador{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1.9em;
+    color: white;
+    margin-left: 25px;
+}

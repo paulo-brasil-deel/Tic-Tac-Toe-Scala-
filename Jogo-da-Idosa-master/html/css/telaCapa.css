@@ -1,0 +1,44 @@
+body{
+	float: left;
+	width: 100%;
+	background-color: white;
+}
+
+
+.button{
+	float: right;
+	background-color: #4CAF50;
+	margin-right: 9%;
+	margin-top:560px;
+	width: 300px;
+    height: 90px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.5em;
+	border-radius: 10px;
+	border: none;
+}
+
+.button:hover{
+    background-color: #2d7f31;
+}
+
+a{
+	text-decoration:none;
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 1.9em;
+    text-align: center;
+	color: white;
+}
+
+.telaCapa{
+border-style:solid;
+    border-color: #c4c4c4;
+    height:720px;
+    width:1280px;
+    background-color: white;
+	border-radius: 10px;
+	background-image: url('FundoCapa.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
