@@ -1,0 +1,177 @@
+.telaJogo{
+    border-style:solid;
+    border-color: #6b6b6b;
+    height:720px;
+    width:1280px;
+    border-radius: 10px;
+    float: left;
+}
+
+button:focus {
+    outline:0;
+}
+
+#console{
+    float:left;
+    border-style:solid;
+    height:600px;
+    width:600px;
+    border-radius: 10px;
+    border: none;
+    background-size: contain;
+    margin-top:55px;
+    margin-left:22px;
+}
+
+.casa{
+  height:180px;
+  width:180px;
+  margin-left: 11px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: none;
+  background:rgba(56,255,255,0.0);
+}
+
+.casaTransparente{
+  height:180px;
+  width:180px;
+  margin-left: 11px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: none;
+  background:rgba(56,255,255,0.0);
+  opacity:0.3;
+}
+
+.casa:hover{
+    background-color: #7a7a7a;
+}
+
+.barraLateral{
+    float:left;
+    border-style:solid;
+    height:450px;
+    width:600px;
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, .3);
+    margin-top:120px;
+    margin-left:22px;
+    background-image: url('fundoBarraInfo.png');
+}
+
+.sairBotao{
+    width: 300px;
+	height: 90px;
+	background-color: #af4c4c;
+	text-align: center;
+    opacity: 1.0;
+    border: none;
+    border-radius: 10px;
+    margin-top:60px;
+}
+
+.sairBotao:hover{
+    filter: brightness(80%);
+}
+
+
+.infoJogador{
+    border-style: solid;
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    background-color: #919191;
+    border-color: #565656;
+    opacity:1.0;
+    display:inline-block;
+}
+
+.infoJogadorTransparente{
+    border-style: solid;
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    background-color: #919191;
+    border-color: #565656;
+    opacity:0.3;
+    display:inline-block;
+}
+
+#infoJogador1{
+    background-size: contain;
+    margin-top:40px;
+}
+
+#infoJogador2{
+    float:right;
+    background-size: contain;
+    margin-top:40px;
+    margin-right:80px;
+}
+
+.fimJogo{
+    float:left;
+    display:none;
+    border-style:solid;
+    height:600px;
+    width:600px;
+    border-radius: 25px;
+    background-color: #cecece;
+    border-color: #828282;
+    margin-top:50px;
+    margin-left:22px;
+
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 5em;
+    color: white;
+    text-decoration:none;
+}
+
+#infoJogadorVencedor{
+    margin-top:30px;
+    display: block;
+
+    border-style: solid;
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    background-color: #919191;
+    border-color: #565656;
+}
+
+.sairFimJogo{
+    float:center;
+    width: 300px;
+	height: 90px;
+	background-color: #af4c4c;
+	text-align: center;
+    opacity: 1.0;
+    border: none;
+    border-radius: 10px;
+    margin-top: 45px;
+    font-size: 0.1em;
+}
+
+.sairFimJogo:hover{
+    filter: brightness(80%);
+}
+
+#fimJogoEmpateTela{
+    float:left;
+        display:none;
+        border-style:solid;
+        height:300px;
+        width:600px;
+        border-radius: 25px;
+        background-color: #cecece;
+        border-color: #828282;
+        margin-top:170px;
+        margin-left:22px;
+        padding-top:30px;
+
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 5em;
+        color: white;
+        text-decoration:none;
+}

@@ -1,0 +1,1 @@
+case class Casa(jogador: Jogador = new Jogador, ocupada:Boolean = false)

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/diego/Documents/Jogo-da-Idosa-master/src/main/scala/Temas.scala:3:41: value nomeTema is not a member of object Menu[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Temas(nomeTema:String = Menu.nomeTema){[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="jogoidosa" />
+    <profile name="sbt 3" modules="JogoIdosa,jogo-da-idosa-master,jogo-da-idosa">
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.7/jars/scalajs-compiler_2.12.7-0.6.25.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

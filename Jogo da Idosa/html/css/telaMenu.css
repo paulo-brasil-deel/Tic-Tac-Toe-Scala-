@@ -1,0 +1,172 @@
+.telaMenu{
+    border-style:solid;
+    border-color: #6b95a5;
+    height:720px;
+    width:1280px;
+    background-image: linear-gradient(#dcedf4, #8babb7);
+	border-radius: 10px;
+}
+
+.jogador{
+	float: left;
+	width: 250px;
+	height: 75px;
+	text-align: center;
+    margin-left:22%;
+	padding-top:0.6%;
+	margin-top:40px;
+}
+
+.barraMenu{
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.iniciarBotao{
+    float: right;
+    width: 300px;
+	height: 90px;
+	background-color: #4CAF50;
+	text-align: center;
+    opacity: 1.0;
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 3.8em;
+    color: white;
+    text-decoration:none;
+}
+
+.iniciarBotao:hover{
+    filter: brightness(80%);
+}
+
+.sairBotaoMenu{
+    float:left;
+    width: 300px;
+    height: 90px;
+    background-color: #af4c4c;
+    text-align: center;
+    opacity: 1.0;
+    border: none;
+    border-radius: 10px;
+}
+
+a{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 3.8em;
+    color: white;
+    text-decoration:none;
+}
+
+.sairBotaoMenu:hover{
+    filter: brightness(80%);
+}
+
+.divTemas{
+    border-style:solid;
+    border-color:#327c99;
+    height:330px;
+    width:1230px;
+    margin-top:20.2%;
+    margin-left:1.6%;
+    border-radius: 10px;
+    background-image: linear-gradient(#78b4cc, #4f94af);
+}
+
+.temaBotao{
+  width: 221px;
+  height:221px;
+  color:black;
+  border: none;
+  border-radius: 10px;
+  margin-left: 18px;
+  margin-top: 7px;
+  margin-bottom:10px;
+}
+
+.temaBotao:hover{
+    filter: brightness(80%);
+}
+
+#temaEscolhidoLabel{
+    display:block;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 3.8em;
+    color: white;
+    text-decoration:none;
+    margin-top: 10px;
+}
+
+
+
+.switch__container{
+display:inline-block;
+float:center;
+margin-left:200px;
+align:center;
+}
+
+
+
+.switch {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+
+.switch + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.switch--shadow + label {
+  margin-left:60px;
+  padding: 2px;
+  width: 120px;
+  height: 60px;
+  background-color: #dddddd;
+  border-radius: 20px;
+}
+
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+.switch--shadow + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+.switch--shadow + label:after {
+  width: 62px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.switch--shadow:checked + label:before {
+  background-color: #8ce196;
+}
+.switch--shadow:checked + label:after {
+  transform: translateX(60px);
+}
+
+.infoSwitch{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1.9em;
+    color: white;
+    text-decoration:none;
+}

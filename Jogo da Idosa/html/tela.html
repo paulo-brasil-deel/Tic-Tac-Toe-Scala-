@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste</title>
+</head>
+<body onload="iniciarMenu()">
+<script src="../target/scala-2.12/jogoidosa-fastopt.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css\telaJogo.css">
+<link rel="stylesheet" type="text/css" href="css\telaMenu.css">
+
+<div id="menu" class="telaMenu">
+    <div class="barraMenu">
+        <button class="sairBotaoMenu"><a href="capa.html"> Voltar
+        </a></button>
+
+        <div class="switch__container">
+            <label class="infoSwitch">Dois Jogadores</label>
+            <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+            <label for="switch-shadow"></label>
+        </div>
+        <button class="iniciarBotao" onclick="iniciarPartida();iniciarJogo()">Iniciar</button>
+    </div>
+
+    <div class="divTemas">
+        <label id="temaEscolhidoLabel" align="center">Escolha o Tema</label>
+        <button id="simples" class="temaBotao" onclick="escolherTema(id)"
+                style="background-image:url('../resources/icones/simples.png');"></button>
+
+        <button id="natal" class="temaBotao" onclick="escolherTema(id)"
+                style="background-image:url('../resources/icones/natal.png');"></button>
+
+        <button id="jathon" class="temaBotao" onclick="escolherTema(id)"
+                style="background-image:url('../resources/icones/jathon.png');"></button>
+
+        <button id="catDog" class="temaBotao" onclick="escolherTema(id)"
+                style="background-image:url('../resources/icones/catDog.png');"></button>
+
+        <button id="dinoOro" class="temaBotao" onclick="escolherTema(id)"
+                style="background-image:url('../resources/icones/dinoOro.png');"></button>
+    </div>
+
+</div>
+
+<div id="tela" class="telaJogo">
+    <div id="console">
+        <table id="tabuleiro">
+            <tr>
+                <td>
+                    <button class="casa" id="00" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+                <td>
+                    <button class="casa" id="01" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+                <td>
+                    <button class="casa" id="02" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="casa" id="10" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+                <td>
+                    <button class="casa" id="11" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+                <td>
+                    <button class="casa" id="12" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="casa" id="20" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+                <td>
+                    <button class="casa" id="21" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+                <td>
+                    <button class="casa" id="22" onclick="jogar(id)">
+                        <img src="../resources/vazio.png"/>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="barraLateralTela" align="center" class="barraLateral">
+
+        <div id="infoJogador1" class="infoJogador"></div>
+
+        <div id="infoJogador2" class="infoJogador"></div>
+
+        <button class="sairBotao"><a href="tela.html"> Voltar
+        </a></button>
+    </div>
+
+    <div id="fimJogoTela" class="fimJogo" align="center">
+        Quem
+        Ganhou
+        Foi:
+        <div id="infoJogadorVencedor"></div>
+        <button class="sairFimJogo">
+            <a href="tela.html"> Jogar Outra Vez</a>
+        </button>
+    </div>
+
+    <div id="fimJogoEmpateTela" class="fimJogo" align="center">
+        Empate!
+        <button class="sairFimJogo">
+            <a href="tela.html"> Jogar Outra Vez</a>
+        </button>
+    </div>
+</div>
+
+</body>
+</html>
